@@ -1,0 +1,22 @@
+Dependency Injection:
+
+Say in Plain Core Java
+Example: I have a App.java which is the entry point of the application
+
+I create 2 more classes 
+1. Bike.java
+2. Car.java
+
+Both have drive() method and have a sysout.
+In app.java If I have to use any oh=f the 2 classes I have to create an object
+Bike bike = new Bike();		or
+Car car = new Car();
+
+Or say I create an Interface (Interface has all the methods as public, and methods dont have bodt)
+Vehicle and it has method drive 
+In Bike I implement the interface
+
+So now in App.java I dont have to use the Bike or Car object. The left hand part is sorted with the Vehicle interface.
+But as Telusko said why even we have to change the right side
+
+You can only create instance of a Class
