@@ -20,3 +20,9 @@ So now in App.java I dont have to use the Bike or Car object. The left hand part
 But as Telusko said why even we have to change the right side
 
 You can only create instance of a Class
+
+Dependency Injection can be configured in 3 ways
+1. Java based
+2. Annotation
+3. XML file
+
