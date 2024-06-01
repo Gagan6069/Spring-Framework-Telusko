@@ -1,0 +1,7 @@
+1. Create a new maven Project
+Select Archetype: 
+
+Refer the pom.xml for the dependencies
+spring-core
+spring-context 
+These jars need to be added.

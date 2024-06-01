@@ -1,0 +1,17 @@
+1. 
+2. 
+
+10. Autowired Annotation
+@Component 
+@Autowired
+
+11. Configuration Bean
+
+12. Annotation Component 
+AutoWired Primary Component
+@Primary 
+ * Now here there are 2 classes which are implementing the MobileProcessor Interface.
+ * And Samsung Mobile Class is using the object of MobileProcessor,
+ * If @Primary is not mentioned, then we will get NoUniqueBeanException.
+ 
+ In Samsung class where we are using @Autowired Annotation, we can use @Qualifier Annotation to specify which object we want of the interface.

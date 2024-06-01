@@ -1,5 +1,7 @@
 Dependency Injection:
 
+It starts with creating object of ApplicationContext (org.springframework.context.ApplicationContext)
+
 Say in Plain Core Java
 Example: I have a App.java which is the entry point of the application
 

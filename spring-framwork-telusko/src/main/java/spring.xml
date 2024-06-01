@@ -11,7 +11,8 @@
 <!--     <bean id="vehicle" class="com.gsb.spring_framwork_telusko.Car"></bean> -->
 		
 		<bean id="tyre" class="com.gsb.spring_framwork_telusko.Tyre">
-			<property name="brand" value="MRF"></property>		
+<!-- 			<property name="brand" value="MRF"></property>		 -->
+<!-- 			<constructor-arg value="MRF"></constructor-arg> -->
 		</bean>
 
 </beans>
